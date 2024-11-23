@@ -5,6 +5,7 @@
     {
       "automerge": true,
       "automergeStrategy": "merge-commit",
+      "automergeType": "branch",
       "ignoreTests": true,
       "matchDepTypes": ["*"],
       "recreateWhen": "always"
@@ -13,5 +14,6 @@
   "platformAutomerge": true,
   "postUpdateOptions": ["gomodTidyE", "gomodMassage", "gomodUpdateImportPaths"],
   "prConcurrentLimit": 0,
+  "prCreation": "immediate",
   "prHourlyLimit": 0
 }
